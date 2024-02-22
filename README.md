@@ -1,15 +1,15 @@
 # MusicPlaylistCoverter
-##Description
+## Description
 This application facilitates the transfer of playlists from Spotify to YouTube Music. It leverages the Spotify Web API and the unofficial YouTube Music API (ytmusicapi) to fetch playlists from a user's Spotify account and recreate them in their YouTube Music account.
 
-##Prerequisites
+## Prerequisites
 Before you begin, ensure you have the following:
 
 Python 3.6 or later installed on your system.
 A Spotify Developer account and a registered application to obtain the client_id and client_secret.
 Access to your YouTube Music account to set up ytmusicapi.
 
-##Setup
+## Setup
 Step 1: Clone the Repository
 Clone this repository to your local machine using git clone, followed by the repository URL.
 
@@ -35,7 +35,7 @@ Python
 SPOTIFY_CLIENT_ID='your_spotify_client_id_here'
 SPOTIFY_CLIENT_SECRET='your_spotify_client_secret_here'
 '''
-##Usage
+## Usage
 To run the application, execute the main script from the command line:
 
 Console
@@ -44,10 +44,10 @@ python main.py
 '''
 Follow any on-screen prompts to authenticate your Spotify account and start the playlist transfer process.
 
-##Troubleshooting
+## Troubleshooting
 Ensure you have internet access and that your Spotify and YouTube Music accounts are active.
 Verify that your Spotify Client ID, Client Secret, and Redirect URI are correctly configured.
 Check the headers_auth.json file for YouTube Music to ensure it's correctly set up.
 
-##Contributing
+## Contributing
 Contributions to improve the application are welcome. Please follow the standard fork-pull request workflow.
