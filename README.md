@@ -17,9 +17,8 @@ Step 2: Install Dependencies
 Navigate to the project directory and install the required Python packages:
 
 Python
-'''
-pip install spotipy ytmusicapi requests
-'''
+`pip install spotipy ytmusicapi requests`
+
 Step 3: Spotify API Setup
 Go to the Spotify Developer Dashboard and create a new application.
 Note down the Client ID and Client Secret.
@@ -31,17 +30,15 @@ Configuration
 Create a .env file in the root of your project directory and add your Spotify Client ID and Client Secret:
 
 Python
-'''
-SPOTIFY_CLIENT_ID='your_spotify_client_id_here'
-SPOTIFY_CLIENT_SECRET='your_spotify_client_secret_here'
-'''
+`SPOTIFY_CLIENT_ID='your_spotify_client_id_here'
+SPOTIFY_CLIENT_SECRET='your_spotify_client_secret_here'`
+
 ## Usage
 To run the application, execute the main script from the command line:
 
 Console
-'''
-python main.py
-'''
+`python main.py`
+
 Follow any on-screen prompts to authenticate your Spotify account and start the playlist transfer process.
 
 ## Troubleshooting
